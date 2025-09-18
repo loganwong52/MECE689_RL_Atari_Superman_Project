@@ -12,6 +12,7 @@ conda activate superman_env
 
 pip install "gymnasium==0.28.1"
 pip install "gymnasium[atari,accept-rom-license]" 
+pip install "gymnasium[class_control,box2d]" 
 
 pip install notebook
 
