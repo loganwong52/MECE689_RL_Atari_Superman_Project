@@ -10,6 +10,8 @@ Close powershell and reopen
 
 conda activate superman_env
 
+pip install stable-baselines3
+pip install sb3_contrib
 pip install "gymnasium==0.28.1"
 pip install "gymnasium[atari,accept-rom-license]" 
 pip install "gymnasium[class_control,box2d]" 
