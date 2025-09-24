@@ -13,24 +13,17 @@ This repository contains implementations of reinforcement learning algorithms, D
 
 ## File structure
 ```
-MECE689_RL_Atari_Superman_Project/
-├── environments/
-│   └── superman_wrappers.py  
-├── baseline_DQN/
-│   ├── train_dqn.py
-│   └── evaluate_dqn.py
-├── ppo/
-│   ├── train_ppo.py
-│   └── evaluate_ppo.py
-├── a2c/
-│   ├── train_a2c.py
-│   └── evaluate_a2c.py
-├── QR_DQN/
-│   ├── train_QR_DQN.py
-│   └── evaluate_QR_DQN.py
-└── results/
-    ├── models/                
-    └── metrics/               
+MECE689_RL_Atari_Superman_Project/ 
+├── train_baseline.ipynb/
+├── train_baseline_action_mask.ipynb/
+├── train_baseline.ipynb/
+├── eval_baseline.ipynb/
+├── PPO_Attempt.ipynb/
+├── eval_PPO.ipynb/
+├── A2C_Attempt.ipynb/
+├── eval_A2C.ipynb/
+├── QRDQN_Attempt.ipynb/
+├── eval_QRDQN.ipynb/
 ```
 
 # Installation
